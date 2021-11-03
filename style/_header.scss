@@ -13,7 +13,7 @@ header.header{
             @include cnt(center , center);
             width: $size / 6;
             margin-right: $size / 100;
-            border-radius: 0 0 5% 5%;
+            border-radius: 0 0 $size / 20 $size / 20;
             padding: $size / 33 $size / 16;
             &:hover{
                 background-color: $link-hover-bg-color;

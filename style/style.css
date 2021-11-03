@@ -159,6 +159,11 @@ main.main .main__item .item__paragraf {
   line-height: 25px;
 }
 
+main.main .main__item .item__heading {
+  font-size: 1.2rem;
+  margin: 2%;
+}
+
 main.main .main__item--text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -173,11 +178,6 @@ main.main .main__item--text {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-main.main .main__item--text .item__heading {
-  font-size: 1.2rem;
-  margin: 2%;
 }
 
 main.main .main__line {
@@ -227,5 +227,47 @@ main.main .main__item--photo .item__wrap .img__wrap {
 main.main .main__item--photo .item__wrap .img__wrap .main__img {
   width: 100%;
   height: 100%;
+}
+
+main.main .main__item--info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5%;
+}
+
+main.main .main__item--info .item__btn {
+  margin-top: 1%;
+  padding: 2% 8.33333%;
+  background-color: #df6267;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+main.main .main__item--info .item__btn:active {
+  border: none;
+  outline: none;
+}
+
+main.main .main__item--info .item__paragraf {
+  margin: 2%;
+  margin-top: 1%;
+}
+
+main.main .main__life--info {
+  margin-top: 0;
 }
 /*# sourceMappingURL=style.css.map */
