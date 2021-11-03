@@ -1,0 +1,26 @@
+@import 'variable';
+@import 'mixin';
+
+main.main{
+    width: $size;
+    .main__item{
+        width: $size;
+        &:first-of-type{
+            margin-top: $size / 10;
+        }
+        @include df(column);
+        @include cnt(center , center);
+        .item__heading{
+            font-size: 1.2rem;
+            margin: $size / 50;
+        }
+        .item__paragraf{
+            display: block;
+            text-align: center;
+            color: $main-text-color;
+            font-size: .9rem;
+            margin: $size / 58;
+            line-height: 25px;
+        }
+    }
+}

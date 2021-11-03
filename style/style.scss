@@ -21,7 +21,7 @@ body{
         margin: 0 auto;
         outline: 2px red solid;
         .wrapper__line{
-            margin: $size / 17 0;
+            margin-top: $size / 17;
             height: $size / 100;
             background-color: $line-color;
         }
@@ -30,3 +30,4 @@ body{
 
 @import 'header';
 @import 'banner';
+@import 'main';
