@@ -61,6 +61,7 @@ main.main{
             background-color: $button-color;
             cursor: pointer;
             color: $button-text-color;
+            text-transform: capitalize;
             border-radius: 5px;
             @include btn;
             &:active{

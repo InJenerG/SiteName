@@ -1,0 +1,24 @@
+@import 'variable';
+@import 'mixin';
+
+footer.footer{
+    padding: $size / 20;
+    .link__wrap{
+        @include df(row);
+        @include cnt(center , center);
+        .footer__link{
+            margin: $size / 25;
+            text-decoration: none;
+            text-transform: capitalize;
+            color: $footer-link-color;
+        }
+    }
+    .text__wrap{
+        @include df(row);
+        @include cnt(center , center);
+        .footer__text{
+            margin: $size / 50;
+            font-size: .8rem;
+        }
+    }
+}

@@ -252,6 +252,7 @@ main.main .main__item--info .item__btn {
   background-color: #df6267;
   cursor: pointer;
   color: #fff;
+  text-transform: capitalize;
   border-radius: 5px;
   border: none;
   outline: none;
@@ -269,5 +270,53 @@ main.main .main__item--info .item__paragraf {
 
 main.main .main__life--info {
   margin-top: 0;
+}
+
+footer.footer {
+  padding: 5%;
+}
+
+footer.footer .link__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer.footer .link__wrap .footer__link {
+  margin: 4%;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #84c7ff;
+}
+
+footer.footer .text__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer.footer .text__wrap .footer__text {
+  margin: 2%;
+  font-size: .8rem;
 }
 /*# sourceMappingURL=style.css.map */
