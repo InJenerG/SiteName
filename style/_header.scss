@@ -3,4 +3,8 @@
 
 header.header{
     width: $size;
+    @include df(row);
+    .nav{
+        @include df(row);
+    }
 }

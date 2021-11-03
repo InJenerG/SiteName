@@ -4,3 +4,8 @@
     display: flex;
     flex-direction: $fd;
 }
+
+@mixin cnt($jc , $ai) {
+    justify-content: $jc;
+    align-items: $ai;
+}
