@@ -28,4 +28,15 @@ main.main{
     .main__line{
         margin-top: $size / 15;
     }
+    .main__item--photo{
+        .heading__wrap{
+            @include df(row);
+            @include cnt(space-between , flex-start);
+            margin: $size / 50 $size / 33;
+            .heading{
+               font-size: 1.2rem;
+               text-transform: capitalize;
+            }
+        }
+    }
 }
