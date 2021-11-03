@@ -1,1 +1,6 @@
 @import 'variable';
+
+@mixin df($fd) {
+    display: flex;
+    flex-direction: $fd;
+}

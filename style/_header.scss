@@ -1,2 +1,6 @@
 @import 'variable';
 @import 'mixin';
+
+header.header{
+    width: $size;
+}
