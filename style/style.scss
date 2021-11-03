@@ -20,12 +20,13 @@ body{
         min-height: $size;
         margin: 0 auto;
         outline: 2px red solid;
-        .wrapper__line{
-            margin-top: $size / 17;
-            height: $size / 100;
-            background-color: $line-color;
-        }
     }
+}
+
+.line{
+    margin-top: $size / 17;
+    height: $size / 100;
+    background-color: $line-color;
 }
 
 @import 'header';

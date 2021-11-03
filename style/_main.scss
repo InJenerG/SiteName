@@ -8,6 +8,8 @@ main.main{
         &:first-of-type{
             margin-top: $size / 10;
         }
+    }
+    .main__item--text{
         @include df(column);
         @include cnt(center , center);
         .item__heading{
@@ -22,5 +24,8 @@ main.main{
             margin: $size / 58;
             line-height: 25px;
         }
+    }
+    .main__line{
+        margin-top: $size / 15;
     }
 }
