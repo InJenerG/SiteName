@@ -15,11 +15,18 @@ html{
 body{
     font-size: 1rem;
     .wrapper{
+        @include df(column);
         width: $size / 1.25;
         min-height: $size;
         margin: 0 auto;
         outline: 2px red solid;
+        .wrapper__line{
+            margin: $size / 17 0;
+            height: $size / 100;
+            background-color: $line-color;
+        }
     }
 }
 
 @import 'header';
+@import 'banner';

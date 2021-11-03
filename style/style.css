@@ -15,10 +15,23 @@ body {
 }
 
 body .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 80%;
   min-height: 100%;
   margin: 0 auto;
   outline: 2px red solid;
+}
+
+body .wrapper .wrapper__line {
+  margin: 5.88235% 0;
+  height: 1%;
+  background-color: #d2d2d2;
 }
 
 header.header {
@@ -71,5 +84,57 @@ header.header .nav .nav__item .nav__link {
   text-decoration: none;
   text-transform: capitalize;
   color: #3f3f3f;
+}
+
+section.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 12.5%;
+}
+
+section.banner .logo__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 12.5%;
+  border-radius: 50%;
+  margin: 1%;
+  padding: 3.0303%;
+  background-color: #df6267;
+}
+
+section.banner .logo__wrap .logo {
+  width: 100%;
+  height: 100%;
+}
+
+section.banner .heading__wrap {
+  margin: 4%;
+}
+
+section.banner .heading__wrap .heading {
+  font-size: 2.4rem;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=style.css.map */

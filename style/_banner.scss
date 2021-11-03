@@ -1,0 +1,28 @@
+@import 'variable';
+@import 'mixin';
+
+section.banner{
+    @include df(column);
+    @include cnt(center , center);
+    margin-top: $size / 8;
+    .logo__wrap{
+        @include df(row);
+        @include cnt(center , center);
+        width: $size / 8;
+        border-radius: 50%;
+        margin: $size / 100;
+        padding: $size / 33;
+        background-color: $button-color;
+        .logo{
+            width: $size;
+            height: $size;
+        }
+    }
+    .heading__wrap{
+        margin: $size / 25;
+        .heading{
+            font-size: 2.4rem;
+            text-transform: uppercase;
+        }
+    }
+}
