@@ -8,14 +8,6 @@ main.main{
         &:first-of-type{
             margin-top: $size / 10;
         }
-    }
-    .main__item--text{
-        @include df(column);
-        @include cnt(center , center);
-        .item__heading{
-            font-size: 1.2rem;
-            margin: $size / 50;
-        }
         .item__paragraf{
             display: block;
             text-align: center;
@@ -23,6 +15,14 @@ main.main{
             font-size: .9rem;
             margin: $size / 58;
             line-height: 25px;
+        }
+    }
+    .main__item--text{
+        @include df(column);
+        @include cnt(center , center);
+        .item__heading{
+            font-size: 1.2rem;
+            margin: $size / 50;
         }
     }
     .main__line{
