@@ -15,9 +15,10 @@ html{
 body{
     font-size: 1rem;
     .wrapper{
-        width: $size / 1.269;
+        width: $size / 1.25;
         min-height: $size;
         margin: 0 auto;
+        outline: 2px red solid;
     }
 }
 

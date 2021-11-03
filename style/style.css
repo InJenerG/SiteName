@@ -15,23 +15,19 @@ body {
 }
 
 body .wrapper {
-  width: 78.80221%;
+  width: 80%;
   min-height: 100%;
   margin: 0 auto;
+  outline: 2px red solid;
 }
 
 header.header {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
 }
 
 header.header .nav {
+  width: 52.63158%;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,5 +35,41 @@ header.header .nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  list-style: none;
+}
+
+header.header .nav .nav__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 16.66667%;
+  margin-right: 1%;
+  border-radius: 0 0 5% 5%;
+  padding: 3.0303% 6.25%;
+}
+
+header.header .nav .nav__item:hover {
+  background-color: #3f3f3f;
+}
+
+header.header .nav .nav__item:hover .nav__link {
+  color: #fff;
+}
+
+header.header .nav .nav__item .nav__link {
+  font-size: .8rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #3f3f3f;
 }
 /*# sourceMappingURL=style.css.map */

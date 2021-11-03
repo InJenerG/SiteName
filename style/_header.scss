@@ -3,8 +3,30 @@
 
 header.header{
     width: $size;
-    @include df(row);
     .nav{
+        width: $size / 1.9;
+        margin: 0 auto;
         @include df(row);
+        list-style: none;
+        .nav__item{
+            @include df(row);
+            @include cnt(center , center);
+            width: $size / 6;
+            margin-right: $size / 100;
+            border-radius: 0 0 5% 5%;
+            padding: $size / 33 $size / 16;
+            &:hover{
+                background-color: $link-hover-bg-color;
+                .nav__link{
+                    color: $button-text-color;
+                }
+            }
+            .nav__link{
+                font-size: .8rem;
+                text-decoration: none;
+                text-transform: capitalize;
+                color: $heading-text-color;
+            }
+        }
     }
 }
