@@ -38,5 +38,17 @@ main.main{
                text-transform: capitalize;
             }
         }
+        .item__wrap{
+            margin-top: $size / 25;
+            @include df(row);
+            flex-wrap: wrap;
+            .img__wrap{
+                width: $size / 3.3;
+                margin: $size / 40 $size / 80;
+                .main__img{
+                    @include img;
+                }
+            }
+        }
     }
 }

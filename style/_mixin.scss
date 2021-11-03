@@ -9,3 +9,8 @@
     justify-content: $jc;
     align-items: $ai;
 }
+
+@mixin img {
+    width: $size;
+    height: $size;
+}
